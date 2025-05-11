@@ -1,0 +1,123 @@
+html{
+    background: linear-gradient(to bottom right, darkcyan , rgb(109, 190, 109));
+
+  }
+.logo{
+    margin-left: 0px;
+    object-fit: cover;
+    padding-left: 0px;
+    width: 100px;
+    height: 100px;
+
+}
+.navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #182333;
+
+}
+.navItem {
+    width: 160px;
+    float: left;
+    background-color: #182333;
+    font-size: 200%;
+    object-fit: fill;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 40px;
+  }
+  .navItem a:hover {
+    background-color: rgb(49, 65, 65);
+  }
+  .navItem a{
+    text-decoration: none;
+  }
+  .navItem a:focus{
+    text-decoration:underline;
+  }
+  .btn{
+    background-color: #182333;
+    border: seagreen;
+  
+  }
+
+  button {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+  }
+  a:visited{
+    color: rgb(51, 124, 106);
+  }
+   .mission{
+    padding-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+     
+  }
+
+.headline{
+    padding-left: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,;
+    font-size: 100%;
+    text-decoration: underline;
+    
+
+}
+.paragraph{
+   padding-left: 100px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 150%;
+
+}
+
+.personalComputers,.smartPhones,.hardWare ,.application ,.system{
+  display: none;
+  gap: 16px; 
+  flex-wrap: wrap; 
+
+}
+
+.card1 {
+  padding-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  align-items: baseline;
+  flex: 1 1 calc(33.333% - 16px); 
+  border: 1px solid #ccc;
+  padding: 16px;
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+.price {
+  color:#182333 ;
+  font-size: 22px;
+}
+
+.card1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card1 button:hover {
+  opacity: 0.7;
+}
+
+
+
+
